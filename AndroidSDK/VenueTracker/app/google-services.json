@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "597181284128",
+    "firebase_url": "https://venuetracker.firebaseio.com",
+    "project_id": "venuetracker",
+    "storage_bucket": "venuetracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597181284128:android:d8d6c57a6ab330a1",
+        "android_client_info": {
+          "package_name": "com.example.micha.venuetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597181284128-us1nh53r802deu8me24e2utu1u43pm6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.micha.venuetracker",
+            "certificate_hash": "f90069f59fb6f8d8875ecef72d18ca50e894e11e"
+          }
+        },
+        {
+          "client_id": "597181284128-9ugqq3ra52nqb6v4cvs1po1cm3l34ifh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VPHi0rADrpXl1LYBpRuFsw4fYlyPoJY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597181284128-9ugqq3ra52nqb6v4cvs1po1cm3l34ifh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

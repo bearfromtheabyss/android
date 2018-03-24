@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.micha.venuetracker.AddPlace">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nazwaet"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nazwaet"
+        android:layout_marginTop="25dp"
+        android:text="Nazwa" />
+
+    <EditText
+        android:id="@+id/nazwaet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nazwaet"
+        android:layout_alignStart="@+id/nazwaet"
+        android:layout_below="@+id/nazwaet"
+        android:layout_marginTop="30dp"
+        android:text="Opis" />
+
+    <EditText
+        android:id="@+id/opiset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/opiset"
+        android:layout_alignStart="@+id/opiset"
+        android:layout_below="@+id/opiset"
+        android:layout_marginTop="31dp"
+        android:text="Promień" />
+
+    <EditText
+        android:id="@+id/promet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/promet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Dodaj miejsce do mapy"
+        android:onClick="insertPlace"/>
+</RelativeLayout>
